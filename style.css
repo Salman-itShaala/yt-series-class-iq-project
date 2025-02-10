@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --common-padding: 0 8vw;
+  --primary-brand-color: #c2f578;
+  --primary-text-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
