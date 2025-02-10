@@ -10,3 +10,63 @@
   --primary-text-color: #000;
   font-family: Arial, Helvetica, sans-serif;
 }
+html {
+  font-size: 16px;
+}
+
+/* 
+gradient-bg-color
+
+background: radial-gradient(
+    circle,
+    var(--primary-brand-color) 0%,
+    rgba(148, 187, 233, 0) 70%
+  ); 
+  
+*/
+
+/* header styling start */
+
+a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--common-padding);
+  height: 12vh;
+}
+
+.header-left {
+  display: flex;
+  gap: 4rem;
+}
+
+.header-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.header-left a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-right {
+  display: flex;
+  gap: 2rem;
+}
+
+.header-right a {
+  color: white;
+  background-color: var(--primary-text-color);
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+}
+.header-right a:hover {
+  background-color: #212121;
+}
