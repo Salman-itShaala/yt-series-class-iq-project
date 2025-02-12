@@ -144,6 +144,7 @@ main {
 .truested-heading {
   text-align: center;
   padding: 2rem 0;
+  font-size: 1.5rem;
 }
 
 .truested-imges-container {
@@ -157,3 +158,117 @@ main {
 .truested-imges-container img {
   width: 10rem;
 }
+
+/* courses section start */
+.courses-section {
+  padding: 12vh 0;
+}
+.courses-section-heading {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.courses-section-heading span {
+  font-weight: bold;
+}
+
+.courses-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--common-padding);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.course-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  background-color: #ecedef;
+  min-width: 20vw;
+  height: 44vh;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+}
+.course-card {
+  width: 2rem;
+}
+
+.course-card div {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.card-heading {
+  font-weight: 700;
+}
+
+.course-card a {
+  background-color: var(--primary-brand-color);
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+}
+/* courses section end */
+/* join now section start */
+.join-now {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4rem;
+  padding: var(--common-padding);
+}
+
+.join-now-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.join-now-right-heading {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #373636;
+}
+.join-now-right ul {
+  list-style: none;
+  color: #545454;
+}
+
+.join-now-right ul li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.join-now-img-wrapper {
+  background-color: #ecedef;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-now-img-wrapper img {
+  width: 1.5rem;
+}
+
+.join-now-left {
+  background-color: #ecedef;
+}
+
+.join-now-a {
+  background-color: var(--primary-brand-color);
+  padding: 1rem 2rem;
+  max-width: max-content;
+  border-radius: 0.5rem;
+}
+
+/* join now section end */
